@@ -1,0 +1,31 @@
+.navbar{
+    height: 70px;
+    
+    a{
+        font-family: 'Heebo', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: #000;
+    }
+    .leftIcons, .rightIcon{
+
+    i{
+        margin-right: 15px;
+        color: #000;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+.navCenter{
+   display: flex;
+   justify-content: center;
+}
+
+}
+
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block;}
+}
+
